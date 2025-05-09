@@ -20,13 +20,13 @@ def create_sentence(**words):
     for word in words.values():
         sentence += word
         sentence += " "
-    return sentence        
-# 
+    return sentence         
 def unique(x):
     my_set = set(x)
     my_list= list(my_set)
     print(my_list)
 unique(["okay","ok","okay","okey"])   
+
 
 
 
